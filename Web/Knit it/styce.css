@@ -1,0 +1,29 @@
+#contact_fulls{
+	margin-top: 95px;
+}
+
+.single_title {
+    margin: 10% auto 0px auto;
+    text-align: center;
+}
+.single_title h2 {
+    font-size: 39px;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+}
+.single_title h2:after {
+    content: '';
+    height: 2px;
+    width: 13%;
+    position: absolute;
+    background: #333;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -11px;
+}
+.st_media{
+    margin-bottom: 75px;
+}

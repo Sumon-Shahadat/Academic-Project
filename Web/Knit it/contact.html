@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Knit it - Contact</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styce.css">
+</head>
+<body>
+
+
+	<header>
+		<div class="container-fluid p-0 fixed-top">
+			<div class="full_navbar">
+				<div class="row">
+					<div class="col-md-3 col-sm-9">
+						<div class=" bimg ml-4">
+							<a class="navbar-brand" href="#">
+								<img src="images/logo.png" alt="#">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-9 col-sm-3">
+						<div class="nav_items text-right clearfix">
+							<div class="float-right navbar navbar-expand-md  mt-2">
+							
+								<button data-target="#nav1" data-toggle="collapse" class="navbar-toggler">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+
+
+								<div id="nav1" class="collapse navbar-collapse">
+									<ul class="navbar-nav">
+										<li id="nav-home" class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+										<li class="nav-item"><a target="_blank" class="nav-link" href="about.html">About</a></li>
+										<li class="nav-item"><a target="_blank" class="nav-link" href="hand_stiches.html">Stiches</a></li>
+										<li class="nav-item"><a class="nav-link" href="#contact_fulls">Contact</a></li>
+										<li class="nav-item"><a class="nav-link" target="_blank" href="sign-up.html">Sign-up</a></li>
+										<li class="nav-item"><a class="nav-link p-0" ></a>
+											
+											<div class="search_1">
+												<div class="form-inline">
+													
+													<input class="form-control" type="search" onsubmit="return findInPage(this.string.value);">
+													<div class="input-group">
+														<div class="input-group-append">
+															<div class="input-group-text">
+																<a href="#"> <i class="fa fa-search"></i></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="contact_full" id="contact_fulls">
+		<div class="top_heading">
+			<h2>Contact Us</h2>
+			<p>For any query Contact with us </p>
+		</div>
+		<div class="mes_contact">
+			<form action="#">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="one" class="form-group">
+							<input id="fn" class="form-control" type="text" placeholder="First Name *">
+							<img src="images/notice.png" alt="#">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="two" class="form-group">
+							<input id="ln" class="form-control" type="text" placeholder="Last Name *">
+							<img src="images/notice.png" alt="#">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div id="three" class="form-group">
+							<input id="em" class="form-control" type="email" placeholder="Your E-mail Address *">
+							<img src="images/notice.png" alt="#">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<textarea class="form-control" name="message" id="msg" placeholder="Your Message"></textarea>
+						</div>
+					</div>
+					<div class="form-group bbtn">
+						<input id="subbtn" class="btn sbb" type="submit" value="Submit">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer_all">
+			<p>Copyright © 2018 'Knit it' Foundation. All Rights Reserved.</p>
+		</div>
+	</footer>
+
+
+	<script>
+
+			$('#fn').blur(function(){
+				var fn = $('#fn').val();
+
+				if( fn == ''){
+					$('input#fn').css('border-bottom','1px solid red');
+					$('#one img').show(200);
+				}else{
+					$('input#fn').css('border-bottom','1px solid #333');
+					$('#one img').hide(200);
+				}
+			});
+			$('#ln').blur(function(){
+				var ln = $('#ln').val();
+
+				if( ln == ''){
+					$('input#ln').css('border-bottom','1px solid red');
+					$('#two img').show(200);
+				}else{
+					$('input#ln').css('border-bottom','1px solid #333');
+					$('#two img').hide(200);
+				}
+			});
+			$('#em').blur(function(){
+				var em = $('#em').val();
+				if( em == ''){
+					$('input#em').css('border-bottom','1px solid red');
+					$('#three img').show(200);
+				}else{
+					$('input#em').css('border-bottom','1px solid #333');
+					$('#three img').hide(200);
+				}
+			});
+
+
+
+			$('.mes_contact form').submit(function(){
+
+				var fn = $('#fn').val();
+				var ln = $('#ln').val();
+				var em = $('#em').val();
+				var msg = $('#msg').val();
+
+
+				if( fn == '' && ln == '' && em == ''){
+					alert('Please fill up the form correctly!!')
+				}
+
+				if( fn == ''){
+					$('input#fn').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('input#fn').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				if( ln == ''){
+					$('input#ln').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('input#ln').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				if( em == ''){
+					$('input#em').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('input#em').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				if( msg == ''){
+					$('textarea#msg').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('textarea#msg').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				return false;
+			});
+		
+	</script>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

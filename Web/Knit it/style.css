@@ -1,0 +1,336 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+ body{
+     max-width: 1920px;
+     margin: auto;
+     font-family: 'Raleway', sans-serif;
+}
+ .bimg img{
+     height: 70px;
+}
+ #nav1 ul li{
+     margin: 0 15px;
+     font-weight: 500;
+     display: inline-block;
+}
+ #nav1 ul li a{
+     color: #333;
+}
+ #nav1 ul li a:hover{
+     background-color: #ddd;
+     color: black;
+}
+
+
+ .full_navbar {
+     background: #adadad;
+}
+ .slide{
+     width: 100%;
+     margin: auto;
+}
+ .carousel-item img{
+     width: 100%;
+     height: 700px;
+     margin: auto;
+}
+ #nav1 ul li{
+     font-size: 17px;
+}
+ .carousel-indicators li.active {
+     background: transparent;
+}
+ .carousel-indicators li.active .center_b{
+     background-color: #333333;
+     height: 15px;
+     width: 15px;
+     margin: auto;
+     border-radius: 50%;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+}
+ .carousel-indicators li{
+     height: 30px;
+     width: 30px;
+     background: transparent;
+     border-radius: 25px;
+     margin: 4px;
+     border:2px solid #333;
+}
+ .carousel-control-next-icon, .carousel-control-prev-icon{
+     width: 44px;
+     height: 44px;
+}
+ .top_heading {
+     text-align: center;
+     margin: auto;
+     padding: 40px 20px;
+}
+ .top_heading h2 {
+     font-size: 45px;
+     font-weight: 700;
+     color: #333;
+}
+ .top_heading p {
+     font-size: 17px;
+     letter-spacing: .5px;
+     color: #333;
+}
+ .single_lw {
+     background: #fff;
+}
+ .latest_work{
+     padding: 70px 0;
+     background: #eeeeeed6;
+}
+ .single_lw img {
+     width: 100%;
+}
+ .bottom_single_item {
+     padding: 38px;
+}
+ .bottom_single_item a h3 {
+     font-size: 30px;
+     color: #333;
+     font-weight: 600;
+     letter-spacing: .3px;
+     margin-bottom: 10px;
+     text-transform: capitalize;
+}
+ .bottom_single_item a:hover{
+     text-decoration: none;
+     list-style: none;
+}
+ .bottom_single_item p {
+     font-size: 17px;
+     color: #333;
+     text-align: justify;
+     line-height: 29px;
+}
+ .fob {
+     text-align: right;
+     margin-top: 30px;
+}
+ button.bsi {
+     background: #bdbdbd;
+     color: #333;
+     font-size: 14px;
+     text-transform: uppercase;
+     font-weight: 600;
+     padding: 6px 15px;
+     cursor: pointer;
+     outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Our team */
+.our_team {
+    padding: 38px 0 70px;
+}
+
+.single_team img {
+    width: 200px;
+    height: auto;
+    border-radius: 1001%;
+}
+ .single_team h3{
+     font-size: 29px;
+     color: #333;
+     text-transform: capitalize;
+     font-weight: 700;
+     margin-top: 20px;
+}
+ .single_team h5{
+     font-size: 18px;
+     color: #6b2525;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin-bottom: 10px;
+}
+.single_team p {
+    font-size: 15px;
+    color: #333;
+    letter-spacing: .5px;
+    width: 72%;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 400;
+}
+ul.social_team {
+    list-style:  none;
+    margin-top:  25px;
+}
+
+ul.social_team li {
+    display:  inline-block;
+    background: #333;
+    height:  30px;
+    width:  30px;
+    line-height:  30px;
+    border-radius:  25px;
+    font-size:  14px;
+    margin: 0 3px;
+}
+
+ul.social_team li a {
+    display:  inline-block;
+    color:  #fff;
+}
+
+
+
+
+
+
+
+
+
+/* contact */
+.contact_full {
+    background: #eeeeeed6;
+    padding: 36px 0 70px;
+}
+.mes_contact {
+    width: 700px;
+    margin: auto;
+}
+.mes_contact .form-group input{
+     outline: none !important;
+     border:none;
+     border-radius: 0;
+     background: transparent;
+}
+.mes_contact .form-group {
+    margin-bottom: 7px;
+}
+.mes_contact .form-group input.form-control {
+     font-size: 14px;
+     letter-spacing: 0.5px;
+     border-bottom: 1px solid #9a9999;
+}
+.form-control:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.mes_contact .form-group textarea{
+     border:0;
+     border-radius: 0;
+     resize: none;
+     background: transparent;
+}
+.mes_contact .form-group textarea.form-control{
+     border-bottom:1px solid #9a9999;
+}
+
+.bbtn{
+     text-align: right;
+     margin: 20px auto;
+}
+#subbtn{
+     font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 1px;
+    background: #ccc;
+}
+.form-group {
+    position:  relative;
+}
+
+.form-group img {
+    position:  absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin:  auto;
+    display: none;
+}
+
+/* footer */
+.footer_all p {
+    margin-bottom:  0;
+    padding: 20px 0;
+    text-align:  center;
+    font-size:  15px;
+    word-spacing: 1px;
+    letter-spacing:  .5px;
+    font-weight: 600;
+    color:  #fff;
+}
+
+.footer_all {
+    background:  #333;
+}
+
+/*About*/
+.about-description_p{
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+
+}
+
+.about-image{
+    height: 300px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 80px;
+
+}
+
+/*Hand stiches main page*/
+
+.handstich-list ul li a{
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bolder;
+    width: 100%;
+    color: #333;
+
+
+}
+.handstich-list {
+    margin-top: 95px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+.handstich-list ul li{
+    width: 100%;
+    background: #ADADAD;
+    border: 1px solid #d2d2d2;
+    padding: 5px 0px;
+    margin-bottom: 2px;
+
+}
+.handstich-list ul{
+    list-style: none;
+
+}
+.handstich-list ul li i{
+    float: left;
+    padding: 2px 0px 0px 2px;
+    
+}
+
+/*Chain*/
+.chain-stiches{
+    margin-top: 95px;
+}

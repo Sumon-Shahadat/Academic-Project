@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Knit it</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+	<header>
+		<div class="container-fluid p-0 fixed-top">
+			<div class="full_navbar">
+				<div class="row">
+					<div class="col-md-3 col-sm-9">
+						<div class=" bimg ml-4">
+							<a class="navbar-brand" href="#">
+								<img src="images/logo.png" alt="#">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-9 col-sm-3">
+						<div class="nav_items text-right clearfix">
+							<div class="float-right navbar navbar-expand-md  mt-2">
+							
+								<button data-target="#nav1" data-toggle="collapse" class="navbar-toggler">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+
+
+								<div id="nav1" class="collapse navbar-collapse">
+									<ul class="navbar-nav">
+										<li id="nav-home" class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+										<li class="nav-item"><a target="_blank" class="nav-link" href="about.html">About</a></li>
+										<li class="nav-item"><a target="_blank" class="nav-link" href="hand_stiches.html">Stiches</a></li>
+										<li class="nav-item"><a class="nav-link" href="#contact_fulls">Contact</a></li>
+										<li class="nav-item"><a class="nav-link" target="_blank" href="sign-up.html">Sign-up</a></li>
+										<li class="nav-item"><a class="nav-link p-0" ></a>
+											
+											<div class="search_1">
+												<div class="form-inline">
+													
+													<input class="form-control" type="search" onsubmit="return findInPage(this.string.value);">
+													<div class="input-group">
+														<div class="input-group-append">
+															<div class="input-group-text">
+																<a href="#"> <i class="fa fa-search"></i></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="carousel_slider">
+		<div id="sli" class="carousel slide" data-ride="carousel">
+
+			<ul class="carousel-indicators">
+				<li data-slide-to="0" data-target="#sli" class="active"> 
+					<div class="center_b"></div>
+				</li>
+				<li data-slide-to="1" data-target="#sli"><div class="center_b"></div></li>
+				<li data-slide-to="2" data-target="#sli"><div class="center_b"></div></li>
+			</ul>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/1.png" alt="#">
+				</div>
+
+				<div class="carousel-item">
+					<img src="images/2.jpg" alt="#">
+				</div>
+
+				<div class="carousel-item">
+					<img src="images/3.jpg" alt="#">
+				</div>
+			</div>
+
+			
+				<a href="#sli" class="carousel-control-prev" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+
+				<a href="#sli" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			
+		</div>
+	</div>
+
+
+	<div class="latest_work">
+		<div class="container-fluid">
+			
+				<div class="top_heading">
+					<h2>Latest Work</h2>
+					<p>In this section you will find our latest work.</p>
+				</div>
+				<div class="lw_bottom_full">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="single_lw">
+								<img src="images/ss1.jpg" alt="#">
+								<div class="bottom_single_item">
+									<a target="_blank" href="#"><h3>Chain Stiches</h3></a>
+									<p>Chain stitch is a sewing and embroidery technique in which a series of looped stitches form a chain-like pattern.[1] Chain stitch is an ancient craft.</p>
+									<hr>
+									<div class="fob">
+										<button class="bsi">See more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="single_lw">
+								<img src="images/ss2.jpg" alt="#">
+								<div class="bottom_single_item">
+									<a target="_blank" href="#"><h3>Split Stiches</h3></a>
+									<p>A fine chain stitch for outlining that is formed by bringing the needle through a soft thread.</p>
+									<hr>
+									<div class="fob">
+										<button class="bsi">See more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="single_lw">
+								<img src="images/ss3.jpg" alt="#">
+								<div class="bottom_single_item">
+									<a target="_blank" href="#"><h3>Stem Stiches</h3></a>
+									<p>An embroidery stitch, derived from backstitch, in which each stitch overlaps the previous stitch to one side, forming a twisted line of stitching, with the thread passing below the needle.</p>
+									<hr>
+									<div class="fob">
+										<button class="bsi">See more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+
+	<div class="our_team">
+		<div class="container">
+			<div class="top_heading">
+				<h2>Our Team</h2>
+				<p>Meet our Team Members</p>
+			</div>
+			<div class="our_team_bottom">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="single_team text-center">
+							<img src="images/tt1.jpg" alt="#">
+							<h3>Md. Sadequl Islam</h3>
+							<h5>Web Designer</h5>
+							<p>B.Sc in CSE at Daffodil International University</p>
+							<ul class="social_team">
+								<li><a target="_blank" href="https://www.facebook.com/mr.lazy4u"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a target="_blank" href="https://www.facebook.com/mr.lazy4u"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a target="_blank" href="https://www.facebook.com/mr.lazy4u"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								<li><a target="_blank" href="https://www.facebook.com/mr.lazy4u"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="single_team text-center">
+							<img src="images/tt2.jpg" alt="#">
+							<h3>Md. Shahadat Ali Mridha</h3>
+							<h5>Web Designer</h5>
+							<p>B.Sc in CSE at Daffodil International University</p>
+							<ul class="social_team">
+								<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100006629163551"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a target="_blank" href="https://twitter.com/Smn_shahadat"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/md-shahadat-ali-mridha-bb2384102"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								<li><a target="_blank" href="https://www.pinterest.com/ssumonshahadat/_saved/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="single_team text-center">
+							<img src="images/tt3.jpg" alt="#">
+							<h3>Nusrat Jahan</h3>
+							<h5>Web Designer</h5>
+							<p>B.Sc in CSE at Daffodil International University</p>
+							<ul class="social_team">
+								<li><a target="_blank" href="https://www.facebook.com/nusratjahan.upoma.9"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+								<li><a target="_blank" href="https://www.facebook.com/nusratjahan.upoma.9"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a target="_blank" href="https://www.facebook.com/nusratjahan.upoma.9"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								<li><a target="_blank" href="https://www.facebook.com/nusratjahan.upoma.9"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="contact_full" id="contact_fulls">
+		<div class="top_heading">
+			<h2>Contact Us</h2>
+			<p>For any query Contact with us. </p>
+		</div>
+		<div class="mes_contact">
+			<form action="#">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="one" class="form-group">
+							<input id="fn" class="form-control" type="text" placeholder="First Name *">
+							<img src="images/notice.png" alt="#">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="two" class="form-group">
+							<input id="ln" class="form-control" type="text" placeholder="Last Name *">
+							<img src="images/notice.png" alt="#">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div id="three" class="form-group">
+							<input id="em" class="form-control" type="email" placeholder="Your E-mail Address *">
+							<img src="images/notice.png" alt="#">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<textarea class="form-control" name="message" id="msg" placeholder="Your Message"></textarea>
+						</div>
+					</div>
+					<div class="form-group bbtn">
+						<input id="subbtn" class="btn sbb" type="submit" value="Submit">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="footer_all">
+			<p>Copyright © 2018 'Knit it' Foundation. All Rights Reserved.</p>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+							<!-- Contact us-->
+	<script>
+
+			$('#fn').blur(function(){
+				var fn = $('#fn').val();
+
+				if( fn == ''){
+					$('input#fn').css('border-bottom','1px solid red');
+					$('#one img').show(200);
+				}else{
+					$('input#fn').css('border-bottom','1px solid #333');
+					$('#one img').hide(200);
+				}
+			});
+			$('#ln').blur(function(){
+				var ln = $('#ln').val();
+
+				if( ln == ''){
+					$('input#ln').css('border-bottom','1px solid red');
+					$('#two img').show(200);
+				}else{
+					$('input#ln').css('border-bottom','1px solid #333');
+					$('#two img').hide(200);
+				}
+			});
+			$('#em').blur(function(){
+				var em = $('#em').val();
+				if( em == ''){
+					$('input#em').css('border-bottom','1px solid red');
+					$('#three img').show(200);
+				}else{
+					$('input#em').css('border-bottom','1px solid #333');
+					$('#three img').hide(200);
+				}
+			});
+
+
+
+			$('.mes_contact form').submit(function(){
+
+				var fn = $('#fn').val();
+				var ln = $('#ln').val();
+				var em = $('#em').val();
+				var msg = $('#msg').val();
+
+
+				if( fn == '' && ln == '' && em == ''){
+					alert('Please fill up the form correctly!!')
+				}
+
+				if( fn == ''){
+					$('input#fn').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('input#fn').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				if( ln == ''){
+					$('input#ln').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('input#ln').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				if( em == ''){
+					$('input#em').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('input#em').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				if( msg == ''){
+					$('textarea#msg').css('border-bottom','1px solid tomato');
+					$('.contact_full').css('background','#fff17578');
+
+				} else {
+					$('textarea#msg').css('border-bottom','1px solid #333');
+					$('.contact_full').css('background','#eeeeeed6');
+				}
+
+				return false;
+			});
+		
+	</script>
+			<!--Search Box -->
+		<SCRIPT language=JavaScript>
+		var NS4 = (document.layers);    
+		var IE4 = (document.all);
+		var win = window;    
+		var n   = 0;
+		function findInPage(str) {
+		  var txt, i, found;
+		  if (str == "")
+		    return false;
+		  if (NS4) {
+		    if (!win.find(str))
+		      while(win.find(str, false, true))
+		        n++;
+		    else
+		      n++;
+		    if (n == 0)
+		      alert("Not found.");
+		  }
+		  if (IE4) {
+		    txt = win.document.body.createTextRange();
+		    for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
+		      txt.moveStart("character", 1);
+		      txt.moveEnd("textedit");
+		    }
+		    if (found) {
+		      txt.moveStart("character", -1);
+		      txt.findText(str);
+		      txt.select();
+		      txt.scrollIntoView();
+		      n++;
+		    }
+		    else {
+		      if (n > 0) {
+		        n = 0;
+		        findInPage(str);
+		      }
+		      else
+		        alert("Sorry, we couldn't find.Try again");
+		   }
+		  }
+		  return false;
+		}
+		</SCRIPT>
+		<!-- /Search-->
+
+</body>
+</html>
